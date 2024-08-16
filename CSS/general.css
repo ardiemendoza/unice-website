@@ -1,0 +1,239 @@
+p{
+    margin: 0;
+    font-family: Silkscreen;
+}
+
+body{
+    background-color: #F7F9F2;
+    height: 3400px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.intro p {
+    margin-top: 100px;
+}
+
+.no-bg{
+    margin-top: 50px;
+    width: 150px;
+}
+
+.greatest{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 300px;
+}
+
+.row3{
+    margin-top: 100px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.message1{
+    font-size: 20px;
+    width: 600px;
+}
+
+.message2{
+    font-size: 20px;
+    width: 600px;
+}
+
+.message3{
+    font-size: 20px;
+    width: 600px;
+}
+
+.message4{
+    font-size: 20px;
+    width: 600px;
+}
+
+.message5{
+    font-size: 20px;
+    width: 600px;
+}
+
+.one{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0% 100%;
+    border-radius: 150px;
+    margin-left: 20px;
+}
+
+.two{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0% 0%;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+
+.three{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0% 100%;
+    border-radius: 150px;
+    margin-left: 20px;
+}
+
+.four{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0% 100%;
+    border-radius: 150px;
+    margin-right: 20px;
+}
+
+.five{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0% 50%;
+    border-radius: 150px;
+    margin-left: 20px;
+}
+
+.row4{
+    margin-top: 100px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.final{
+    display: flex;
+    justify-content: center;
+    margin-top: 500px;
+}
+
+.final-message{
+    text-align: center;
+    width: 300px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five{
+    box-shadow: 14px 27px 28px -27px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 14px 27px 28px -27px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 27px 28px -27px rgba(0,0,0,0.75);
+}
+
+/* This is for media queries, to view properly on phones */
+
+@media (max-width: 1280px) {
+    .intro{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .message1{
+        font-size: 18px;
+        text-align: justify;
+        margin-right: 5px;
+        width: 600px;
+    }
+
+    .message2{
+        font-size: 18px;
+        text-align: justify;
+        margin-right: 5px;
+        width: 600px;
+    }
+
+    .message3{
+        font-size: 18px;
+        text-align: justify;
+        margin-right: 5px;
+        width: 600px;
+    }
+
+    .message4{
+        font-size: 18px;
+        text-align: justify;
+        margin-right: 5px;
+        width: 600px;
+    }
+
+    .message5{
+        font-size: 18px;
+        text-align: justify;
+        margin-right: 5px;
+        width: 600px;
+    }
+
+    .one{
+        min-width: 150px;
+        height: 150px;
+        object-fit: cover;
+        object-position: 0% 100%;
+        border-radius: 100px;
+        margin-left: 20px;
+    }
+    
+    .two{
+        min-width: 150px;
+        height: 150px;
+        object-fit: cover;
+        object-position: 0% 0%;
+        border-radius: 100px;
+        margin-right: 20px;
+    }
+    
+    .three{
+        min-width: 150px;
+        height: 150px;
+        object-fit: cover;
+        object-position: 0% 100%;
+        border-radius: 150px;
+        margin-left: 20px;
+    }
+    
+    .four{
+        min-width: 150px;
+        height: 150px;
+        object-fit: cover;
+        object-position: 0% 100%;
+        border-radius: 150px;
+        margin-right: 20px;
+    }
+    
+    .five{
+        min-width: 150px;
+        height: 150px;
+        object-fit: cover;
+        object-position: 0% 50%;
+        border-radius: 150px;
+        margin-left: 20px;
+    }
+
+    body{
+        height: 4500px;
+    }
+
+}
